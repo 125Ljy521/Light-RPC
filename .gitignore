@@ -1,0 +1,30 @@
+### Java 编译输出 ###
+*.class
+*.jar
+*.war
+*.ear
+
+### 构建目录（Maven/Gradle） ###
+target/
+build/
+
+### Maven Wrapper 保留 jar ###
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+### IntelliJ IDEA 配置文件 ###
+.idea/
+*.iml
+*.iws
+*.ipr
+
+### VSCode 配置（如果不用可删） ###
+.vscode/
+
+### 系统生成文件 ###
+.DS_Store
+
+### 日志与临时文件 ###
+*.log
+*.tmp
+*.swp
